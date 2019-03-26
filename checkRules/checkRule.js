@@ -1,9 +1,3 @@
-const checkReactAccessRules = require('./checkReactAccessRules');
-const checkReactRules = require('./checkReactRules');
-const checkImportRules = require('./checkImportRules');
-const checkJavaScriptRules = require('./checkJavaScriptRules');
+const checkStyleLintRules = require('./checkStyleLintRules');
 
-checkReactAccessRules();
-checkReactRules();
-checkImportRules();
-checkJavaScriptRules();
+checkStyleLintRules();
