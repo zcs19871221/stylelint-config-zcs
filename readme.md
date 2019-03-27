@@ -4,6 +4,39 @@
 
     npm install --save-dev stylelint-config-zcs stylelint-a11y stylelint-config-prettier stylelint-no-unsupported-browser-features
 
+## 使用
+
+创建`.stylelintrc.js`,放到根目录,内容如下：
+
+    module.exports = {
+      extends: 'stylelint-config-zcs',
+    };
+
+### 集成 webpack
+
+在预处理器 loader(less,sass)和 css-loader 之间添加 postcss-loader,插件使用 stylelint
+
+代码类似：
+
+    use: [
+      // 抽象的css-loader
+      modular({ prevLoader: 2, isUseSourceMap: true }),
+      // postcss-loader集成stylelint
+      {
+        loader: require.resolve('postcss-loader'),
+        options: {
+          ident: 'postcss',
+          plugins: () => [require('stylelint')()],
+        },
+      }
+      // 抽象的预处理器loader(less,sass)
+      cssCompile({ isUseSourceMap: true })
+    ]
+
+### 集成 vscode
+
+安装拓展 [stylelint](https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint)
+
 ## 规范文档
 
 [文档地址](./doc/index.md)
