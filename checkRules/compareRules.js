@@ -3,7 +3,7 @@ const { printWarn } = require('./printWarn');
 const getLostRules = require('./getLostRules');
 const getDeprecateRules = require('./getDeprecateRules');
 
-const main = async ({ webRules, offRules, usedRules, rulesPath }) => {
+const main = async ({ webRules, offRules = [], usedRules, rulesPath } = {}) => {
   try {
     const lostRules = await getLostRules({
       offRules,

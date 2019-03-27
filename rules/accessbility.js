@@ -1,4 +1,5 @@
 module.exports = {
+  defaultSeverity: 'error',
   plugins: ['stylelint-a11y'],
   rules: {
     /**
@@ -102,40 +103,68 @@ module.exports = {
      */
     'a11y/no-obsolete-element': true,
 
-    //   /**
-    //    * @meaning
-    //    *
-    //    * @why
-    //    * @wrong
-    //    * @right
-    //    */
-    //   'a11y/no-spread-text': true,
+    /**
+     * @meaning
+     * 要求文本段的长短在45-80ch之间
+     * @why
+     * 提高可访问性
+     * https://medium.com/@matuzo/writing-css-with-accessibility-in-mind-8514a0007939
+     * @wrong
+     * .foo {
+     *   text-transform: lowercase;
+     *   max-width: 40ch;
+     * }
+     * @right
+     * .foo {
+     *   max-width: 65ch;
+     * }
+     */
+    'a11y/no-spread-text': true,
 
-    //   /**
-    //    * @meaning
-    //    *
-    //    * @why
-    //    * @wrong
-    //    * @right
-    //    */
-    //   'a11y/no-outline-none': true,
+    /**
+     * @meaning
+     * 不要给聚焦元素设置outline:none
+     * @why
+     * outline会给可聚焦元素得到聚焦后一个视觉反馈，
+     * 如果删除了，视障人士无法有效得知聚焦情况
+     * https://a11yproject.com/posts/never-remove-css-outlines/
+     * @wrong
+     * .foo:focus {
+     *   outline: 0;
+     * }
+     * .foo:focus {
+     *   outline: none;
+     * }
+     * @right
+     */
+    'a11y/no-outline-none': true,
 
-    //   /**
-    //    * @meaning
-    //    *
-    //    * @why
-    //    * @wrong
-    //    * @right
-    //    */
-    //   'a11y/no-text-align-justify': true,
+    /**
+     * @meaning
+     * 禁止使用`text-align: justify;`属性
+     * @why
+     * 对齐选项会造成段落中出现大段的空白，不利于阅读
+     * @wrong
+     * .foo {
+     *   text-align: justify;
+     * }
+     * @right
+     */
+    'a11y/no-text-align-justify': true,
 
-    //   /**
-    //    * @meaning
-    //    *
-    //    * @why
-    //    * @wrong
-    //    * @right
-    //    */
-    //   'a11y/selector-pseudo-class-focus': true,
+    /**
+     * @meaning
+     * a标签如果设置了hover伪类样式，必须设置focus伪类
+     * @why
+     * 要对使用键盘的用户提供同样的视觉效果
+     * @wrong
+     * a:hover {
+     * }
+     * @right
+     * a:hover,
+     * a:focus {
+     * }
+     */
+    'a11y/selector-pseudo-class-focus': true,
   },
 };

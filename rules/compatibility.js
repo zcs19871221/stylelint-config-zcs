@@ -4,8 +4,7 @@ module.exports = {
     'plugin/no-unsupported-browser-features': [
       true,
       {
-        browsers: ['> 1%', 'Last 2 versions'],
-        ignore: ['rem'],
+        severity: 'warning',
       },
     ],
   },
