@@ -1,7 +1,7 @@
 {
-  "name": "stylelint-config-netease",
+  "name": "stylelint-config-zcs",
   "version": "1.0.1",
-  "description": "styleint prest",
+  "description": "styleint preset",
   "main": "index.js",
   "scripts": {
     "checkRule": "node checkRules/checkRule.js",
