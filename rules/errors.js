@@ -205,7 +205,12 @@ module.exports = {
      * @right
      * @media all and (monochrome) {}
      */
-    'media-feature-name-no-unknown': true,
+    'media-feature-name-no-unknown': [
+      true,
+      {
+        ignoreMediaFeatureNames: ['prefers-color-scheme'],
+      },
+    ],
 
     /**
      * @meaning
