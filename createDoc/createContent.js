@@ -53,7 +53,7 @@ const createContent = (file, linkTemplate) => {
       rulesName.push(ruleName);
       const ruleTitle = `<a id='${ruleName}'></a>\n## ${ruleName}\n\n`;
       const ruleContent = createSubContent(doc, keyMapDocStyle);
-      const eslintLink = `[eslint](${linkTemplate(
+      const eslintLink = `[stylelint](${linkTemplate(
         ruleName.replace(/^.*?\//, ''),
       )})\n\n`;
       const jumpContentTable = '**[⬆ 回到目录](#目录)**\n\n';

@@ -37,7 +37,7 @@
         background: url("./file.jpg");  
       }
 
-[eslint](https://stylelint.io/user-guide/rules/function-url-no-scheme-relative/)
+[stylelint](https://stylelint.io/user-guide/rules/function-url-no-scheme-relative/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -52,7 +52,7 @@
 
   有的浏览器只保留小数点两位，保持一致
 
-[eslint](https://stylelint.io/user-guide/rules/number-max-precision/)
+[stylelint](https://stylelint.io/user-guide/rules/number-max-precision/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -72,7 +72,7 @@
 
       a { margin: 1px}
 
-[eslint](https://stylelint.io/user-guide/rules/shorthand-property-no-redundant-values/)
+[stylelint](https://stylelint.io/user-guide/rules/shorthand-property-no-redundant-values/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -83,7 +83,7 @@
 
   能用简写的属性尽量使用简写
 
-[eslint](https://stylelint.io/user-guide/rules/declaration-block-no-redundant-longhand-properties/)
+[stylelint](https://stylelint.io/user-guide/rules/declaration-block-no-redundant-longhand-properties/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -94,7 +94,7 @@
 
   禁止使用`!import`
 
-[eslint](https://stylelint.io/user-guide/rules/declaration-no-important/)
+[stylelint](https://stylelint.io/user-guide/rules/declaration-no-important/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -116,14 +116,14 @@
         top: 3px;  
       }
 
-[eslint](https://stylelint.io/user-guide/rules/declaration-block-single-line-max-declarations/)
+[stylelint](https://stylelint.io/user-guide/rules/declaration-block-single-line-max-declarations/)
 
 **[⬆ 回到目录](#目录)**
 
 <a id='selector-no-qualifying-type'></a>
 ## selector-no-qualifying-type
 
-[eslint](https://stylelint.io/user-guide/rules/selector-no-qualifying-type/)
+[stylelint](https://stylelint.io/user-guide/rules/selector-no-qualifying-type/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -134,7 +134,7 @@
 
   最大嵌套层为2
 
-[eslint](https://stylelint.io/user-guide/rules/max-nesting-depth/)
+[stylelint](https://stylelint.io/user-guide/rules/max-nesting-depth/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -145,7 +145,7 @@
 
   禁止未知的动画名称
 
-[eslint](https://stylelint.io/user-guide/rules/no-unknown-animations/)
+[stylelint](https://stylelint.io/user-guide/rules/no-unknown-animations/)
 
 **[⬆ 回到目录](#目录)**
 

@@ -42,7 +42,7 @@
   简写可以是3位#abc => #aabbccdd  
   或4位#abcd => #aabbccdd
 
-[eslint](https://stylelint.io/user-guide/rules/color-no-invalid-hex/)
+[stylelint](https://stylelint.io/user-guide/rules/color-no-invalid-hex/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -53,7 +53,7 @@
 
   禁止font-family中有重复定义
 
-[eslint](https://stylelint.io/user-guide/rules/font-family-no-duplicate-names/)
+[stylelint](https://stylelint.io/user-guide/rules/font-family-no-duplicate-names/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -70,7 +70,7 @@
   当浏览器遇到一个字符时候，会从列表的开始位置寻找字体是否有对应的字符，  
   如果有，就给这个字符应用字体，否则往下走。
 
-[eslint](https://stylelint.io/user-guide/rules/font-family-no-missing-generic-family-keyword/)
+[stylelint](https://stylelint.io/user-guide/rules/font-family-no-missing-generic-family-keyword/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -89,7 +89,7 @@
   3. 不能除0  
   4. 操作符之间必须有空格
 
-[eslint](https://stylelint.io/user-guide/rules/function-calc-no-invalid/)
+[stylelint](https://stylelint.io/user-guide/rules/function-calc-no-invalid/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -100,7 +100,7 @@
 
   禁止在`linear-gradient()`方法中使用无效的方向值
 
-[eslint](https://stylelint.io/user-guide/rules/function-linear-gradient-no-nonstandard-direction/)
+[stylelint](https://stylelint.io/user-guide/rules/function-linear-gradient-no-nonstandard-direction/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -128,7 +128,7 @@
       content: "first\Asecond";  
       }
 
-[eslint](https://stylelint.io/user-guide/rules/string-no-newline/)
+[stylelint](https://stylelint.io/user-guide/rules/string-no-newline/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -147,7 +147,7 @@
 
       width: 10px;
 
-[eslint](https://stylelint.io/user-guide/rules/unit-no-unknown/)
+[stylelint](https://stylelint.io/user-guide/rules/unit-no-unknown/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -170,7 +170,7 @@
         color: blue;  
       }
 
-[eslint](https://stylelint.io/user-guide/rules/property-no-unknown/)
+[stylelint](https://stylelint.io/user-guide/rules/property-no-unknown/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -185,7 +185,7 @@
 
   有些浏览器下，该语法不生效
 
-[eslint](https://stylelint.io/user-guide/rules/keyframe-declaration-no-important/)
+[stylelint](https://stylelint.io/user-guide/rules/keyframe-declaration-no-important/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -213,7 +213,7 @@
        font-weight: 400;  
       }
 
-[eslint](https://stylelint.io/user-guide/rules/declaration-block-no-duplicate-properties/)
+[stylelint](https://stylelint.io/user-guide/rules/declaration-block-no-duplicate-properties/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -240,7 +240,7 @@
       a { padding: 10px; padding-left: 20px; }  
       a { padding: 10px;}
 
-[eslint](https://stylelint.io/user-guide/rules/declaration-block-no-shorthand-property-overrides/)
+[stylelint](https://stylelint.io/user-guide/rules/declaration-block-no-shorthand-property-overrides/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -255,7 +255,7 @@
 
       {}
 
-[eslint](https://stylelint.io/user-guide/rules/block-no-empty/)
+[stylelint](https://stylelint.io/user-guide/rules/block-no-empty/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -274,7 +274,7 @@
 
       a:hover {}
 
-[eslint](https://stylelint.io/user-guide/rules/selector-pseudo-class-no-unknown/)
+[stylelint](https://stylelint.io/user-guide/rules/selector-pseudo-class-no-unknown/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -293,7 +293,7 @@
 
       a::after{}
 
-[eslint](https://stylelint.io/user-guide/rules/selector-pseudo-element-no-unknown/)
+[stylelint](https://stylelint.io/user-guide/rules/selector-pseudo-element-no-unknown/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -304,7 +304,7 @@
 
   禁止出现未知的类型（tag）选择器
 
-[eslint](https://stylelint.io/user-guide/rules/selector-type-no-unknown/)
+[stylelint](https://stylelint.io/user-guide/rules/selector-type-no-unknown/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -323,7 +323,7 @@
 
       @media all and (monochrome) {}
 
-[eslint](https://stylelint.io/user-guide/rules/media-feature-name-no-unknown/)
+[stylelint](https://stylelint.io/user-guide/rules/media-feature-name-no-unknown/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -342,7 +342,7 @@
 
       @charset "UTF-8";
 
-[eslint](https://stylelint.io/user-guide/rules/at-rule-no-unknown/)
+[stylelint](https://stylelint.io/user-guide/rules/at-rule-no-unknown/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -353,7 +353,7 @@
 
   禁止空注释
 
-[eslint](https://stylelint.io/user-guide/rules/comment-no-empty/)
+[stylelint](https://stylelint.io/user-guide/rules/comment-no-empty/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -377,7 +377,7 @@
 
        a { top: 0; } #container a { top: 10px; }
 
-[eslint](https://stylelint.io/user-guide/rules/no-descending-specificity/)
+[stylelint](https://stylelint.io/user-guide/rules/no-descending-specificity/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -388,7 +388,7 @@
 
   禁止在`import`语法中导入重复的内容
 
-[eslint](https://stylelint.io/user-guide/rules/no-duplicate-at-import-rules/)
+[stylelint](https://stylelint.io/user-guide/rules/no-duplicate-at-import-rules/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -399,7 +399,7 @@
 
   禁止重复的选择器
 
-[eslint](https://stylelint.io/user-guide/rules/no-duplicate-selectors/)
+[stylelint](https://stylelint.io/user-guide/rules/no-duplicate-selectors/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -410,7 +410,7 @@
 
   禁止出现空的css文件
 
-[eslint](https://stylelint.io/user-guide/rules/no-empty-source/)
+[stylelint](https://stylelint.io/user-guide/rules/no-empty-source/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -421,7 +421,7 @@
 
   禁止出现额外的分号
 
-[eslint](https://stylelint.io/user-guide/rules/no-extra-semicolons/)
+[stylelint](https://stylelint.io/user-guide/rules/no-extra-semicolons/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -436,7 +436,7 @@
 
   css不支持该语法作为注释
 
-[eslint](https://stylelint.io/user-guide/rules/no-invalid-double-slash-comments/)
+[stylelint](https://stylelint.io/user-guide/rules/no-invalid-double-slash-comments/)
 
 **[⬆ 回到目录](#目录)**
 

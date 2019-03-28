@@ -16,7 +16,7 @@
 <a id='function-name-case'></a>
 ## function-name-case
 
-[eslint](https://stylelint.io/user-guide/rules/function-name-case/)
+[stylelint](https://stylelint.io/user-guide/rules/function-name-case/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -32,7 +32,7 @@
   如果不用括号括起来，使用react时候，地址里面如果有特殊符号比如}，会错误解析  
   因为react不知道哪个位置是url边界
 
-[eslint](https://stylelint.io/user-guide/rules/function-url-quotes/)
+[stylelint](https://stylelint.io/user-guide/rules/function-url-quotes/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -43,7 +43,7 @@
 
   小数点前必须加0
 
-[eslint](https://stylelint.io/user-guide/rules/number-leading-zero/)
+[stylelint](https://stylelint.io/user-guide/rules/number-leading-zero/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -54,7 +54,7 @@
 
   禁止小数点后末尾是0
 
-[eslint](https://stylelint.io/user-guide/rules/number-no-trailing-zeros/)
+[stylelint](https://stylelint.io/user-guide/rules/number-no-trailing-zeros/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -65,14 +65,14 @@
 
   禁止给0长度后面加单位
 
-[eslint](https://stylelint.io/user-guide/rules/length-zero-no-unit/)
+[stylelint](https://stylelint.io/user-guide/rules/length-zero-no-unit/)
 
 **[⬆ 回到目录](#目录)**
 
 <a id='value-keyword-case'></a>
 ## value-keyword-case
 
-[eslint](https://stylelint.io/user-guide/rules/value-keyword-case/)
+[stylelint](https://stylelint.io/user-guide/rules/value-keyword-case/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -83,7 +83,7 @@
 
   伪元素选择器永远使用::双冒号
 
-[eslint](https://stylelint.io/user-guide/rules/selector-pseudo-element-colon-notation/)
+[stylelint](https://stylelint.io/user-guide/rules/selector-pseudo-element-colon-notation/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -94,7 +94,7 @@
 
   标签选择器必须小写
 
-[eslint](https://stylelint.io/user-guide/rules/selector-type-case/)
+[stylelint](https://stylelint.io/user-guide/rules/selector-type-case/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -113,7 +113,7 @@
 
       a { font-family: 'Arial', sans-serif; }
 
-[eslint](https://stylelint.io/user-guide/rules/font-family-name-quotes/)
+[stylelint](https://stylelint.io/user-guide/rules/font-family-name-quotes/)
 
 **[⬆ 回到目录](#目录)**
 
@@ -124,7 +124,7 @@
 
   换行符必须是unix风格的`\n`
 
-[eslint](https://stylelint.io/user-guide/rules/linebreaks/)
+[stylelint](https://stylelint.io/user-guide/rules/linebreaks/)
 
 **[⬆ 回到目录](#目录)**
 

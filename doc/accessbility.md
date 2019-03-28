@@ -36,7 +36,7 @@
         content: attr(aria-label);  
       }
 
-[eslint](https://github.com/YozhikM/stylelint-a11y/blob/master/src/rules/content-property-no-static-value/README.md)
+[stylelint](https://github.com/YozhikM/stylelint-a11y/blob/master/src/rules/content-property-no-static-value/README.md)
 
 **[⬆ 回到目录](#目录)**
 
@@ -47,7 +47,7 @@
 
   禁止字体小于15px
 
-[eslint](https://github.com/YozhikM/stylelint-a11y/blob/master/src/rules/font-size-is-readable/README.md)
+[stylelint](https://github.com/YozhikM/stylelint-a11y/blob/master/src/rules/font-size-is-readable/README.md)
 
 **[⬆ 回到目录](#目录)**
 
@@ -82,7 +82,7 @@
         }  
       }
 
-[eslint](https://github.com/YozhikM/stylelint-a11y/blob/master/src/rules/line-height-is-vertical-rhythmed/README.md)
+[stylelint](https://github.com/YozhikM/stylelint-a11y/blob/master/src/rules/line-height-is-vertical-rhythmed/README.md)
 
 **[⬆ 回到目录](#目录)**
 
@@ -98,7 +98,7 @@
   为了支持ios7为了针对3d眩晕患者提供的手机配置项：减少动画效果  
   https://webkit.org/blog/7551/responsive-design-for-motion/
 
-[eslint](https://github.com/YozhikM/stylelint-a11y/blob/master/src/rules/media-prefers-reduced-motion/README.md)
+[stylelint](https://github.com/YozhikM/stylelint-a11y/blob/master/src/rules/media-prefers-reduced-motion/README.md)
 
 **[⬆ 回到目录](#目录)**
 
@@ -130,7 +130,7 @@
         }  
       }
 
-[eslint](https://github.com/YozhikM/stylelint-a11y/blob/master/src/rules/media-prefers-color-scheme/README.md)
+[stylelint](https://github.com/YozhikM/stylelint-a11y/blob/master/src/rules/media-prefers-color-scheme/README.md)
 
 **[⬆ 回到目录](#目录)**
 
@@ -141,7 +141,7 @@
 
   禁止使用过时的属性
 
-[eslint](https://github.com/YozhikM/stylelint-a11y/blob/master/src/rules/no-obsolete-attribute/README.md)
+[stylelint](https://github.com/YozhikM/stylelint-a11y/blob/master/src/rules/no-obsolete-attribute/README.md)
 
 **[⬆ 回到目录](#目录)**
 
@@ -152,7 +152,7 @@
 
   禁止使用过时的元素
 
-[eslint](https://github.com/YozhikM/stylelint-a11y/blob/master/src/rules/no-obsolete-element/README.md)
+[stylelint](https://github.com/YozhikM/stylelint-a11y/blob/master/src/rules/no-obsolete-element/README.md)
 
 **[⬆ 回到目录](#目录)**
 
@@ -181,7 +181,7 @@
         max-width: 65ch;  
       }
 
-[eslint](https://github.com/YozhikM/stylelint-a11y/blob/master/src/rules/no-spread-text/README.md)
+[stylelint](https://github.com/YozhikM/stylelint-a11y/blob/master/src/rules/no-spread-text/README.md)
 
 **[⬆ 回到目录](#目录)**
 
@@ -207,7 +207,7 @@
         outline: none;  
       }
 
-[eslint](https://github.com/YozhikM/stylelint-a11y/blob/master/src/rules/no-outline-none/README.md)
+[stylelint](https://github.com/YozhikM/stylelint-a11y/blob/master/src/rules/no-outline-none/README.md)
 
 **[⬆ 回到目录](#目录)**
 
@@ -228,7 +228,7 @@
         text-align: justify;  
       }
 
-[eslint](https://github.com/YozhikM/stylelint-a11y/blob/master/src/rules/no-text-align-justify/README.md)
+[stylelint](https://github.com/YozhikM/stylelint-a11y/blob/master/src/rules/no-text-align-justify/README.md)
 
 **[⬆ 回到目录](#目录)**
 
@@ -254,7 +254,7 @@
       a:focus {  
       }
 
-[eslint](https://github.com/YozhikM/stylelint-a11y/blob/master/src/rules/selector-pseudo-class-focus/README.md)
+[stylelint](https://github.com/YozhikM/stylelint-a11y/blob/master/src/rules/selector-pseudo-class-focus/README.md)
 
 **[⬆ 回到目录](#目录)**
 
