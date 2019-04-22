@@ -42,7 +42,7 @@ class Custom {
         install: [`${stylelintAccess}@${stylelintAccessPg}`],
       },
       prettier: {
-        file: 'prettier',
+        file: prettierConfigName,
         install: [`${prettierConfigName}@${prettierConfig}`],
       },
     };
