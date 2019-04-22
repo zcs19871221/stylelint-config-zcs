@@ -68,7 +68,7 @@ class Custom {
         this.parser = parser;
       }
       if (file) {
-        this.toExtend.push();
+        this.toExtend.push(file);
       }
       if (install) {
         this.toInstall = this.toInstall.concat(install);
