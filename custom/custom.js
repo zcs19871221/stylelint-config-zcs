@@ -68,7 +68,7 @@ class Custom {
         this.parser = parser;
       }
       if (file) {
-        this.toExtend.push(file.replace(/^eslint-config-/u, ''));
+        this.toExtend.push(file.replace(/^stylelint-config-/u, ''));
       }
       if (install) {
         this.toInstall = this.toInstall.concat(install);
@@ -112,18 +112,20 @@ class Custom {
   async create() {
     await this.handleFeature();
     const install = this.getInstall();
-    console.log(
-      chalk.green.bold(`npm install --save-dev ${install.join(' ')}`),
-    );
     const defaultSeverity = await ask({
       type: 'list',
       choices: ['error', 'warn'],
       message: '选择默认错误级别',
     });
+    console.log(
+      chalk.green('按照如下安装依赖\n'),
+      chalk.green.bold(`npm install --save-dev ${install.join(' ')}`),
+    );
     const config = {
       extends: Custom.uniq(this.getExtend()),
       defaultSeverity,
     };
+
     fs.writeFileSync(
       path.join(process.cwd(), '.stylelintrc.js'),
       `module.exports = ${JSON.stringify(config, null, 2)}`,
@@ -134,8 +136,8 @@ class Custom {
     if (await Custom.isUse('浏览器兼容性检查')) {
       this.addFeature('compatibility');
     }
-    if (await Custom.isUse('jsx可访问性检查')) {
-      this.addFeature('jsx-accessibility');
+    if (await Custom.isUse('css可访问性检查')) {
+      this.addFeature('accessbility');
     }
     if (await Custom.isUse('prettier格式化')) {
       this.addFeature('prettier');
