@@ -68,7 +68,7 @@ class Custom {
         this.parser = parser;
       }
       if (file) {
-        this.toExtend.push(file.replace(/^stylelint-config-/u, ''));
+        this.toExtend.push();
       }
       if (install) {
         this.toInstall = this.toInstall.concat(install);
