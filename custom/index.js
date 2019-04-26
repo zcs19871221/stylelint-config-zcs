@@ -29,7 +29,7 @@ const custom = ({
         '${pkgName}/rules/limitFeature',
         ${compat ? `'${pkgName}/rules/compatibility',` : ''}
         ${access ? `'${pkgName}/rules/accessbility',` : ''}
-        ${prettier ? `'${prettierConfigName}'` : ''}
+        ${prettier ? `'${prettierConfigName}',` : ''}
       ],
       defaultSeverity: '${defaultServerity}',
     };
