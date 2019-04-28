@@ -7,9 +7,6 @@
     "checkRule": "node checkRules/checkRule.js",
     "createDoc": "node createDoc/createAllDoc.js"
   },
-  "bin": {
-    "stylelint-zcs": "./custom.js"
-  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
